@@ -1,0 +1,40 @@
+#main-navigation{
+    display: flex;
+    font-size: 10px;
+}
+.menu li {
+    display: inline-block;
+    flex-flow: row wrap;   
+    text-decoration: none;    
+    font-size: 1.5rem;
+    padding-top: 3px;
+}
+.menulink{
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+}
+.menulink:hover {
+    color: yellow;
+    text-transform: uppercase;
+}
+#main-navigation i{
+    display: none;
+}
+
+@media all and (max-width: 1024px){
+    .menu li{
+        font-size: 1rem;
+    }
+    .menu{
+        display: none;
+    }
+    #main-navigation i{
+        display: block;
+        color: white;
+       padding-top: 5px;
+       font-size: 1.5rem;
+    }
+ 
+
+}

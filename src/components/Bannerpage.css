@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Grape+Nuts&family=Lemonada:wght@500&family=Maven+Pro&family=Montserrat:wght@300&display=swap');
+
+.jumbotron {
+    color: white;
+    background-image: url("../nursebanner.jpg");
+    /* background-image: url("https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c"); */
+    background-position:  right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+  }
+  .container{
+    padding: 2em;
+  }
+  button{
+    /* outline: none; */
+    background-color: #008631;
+  }
+  .button1{  
+    display: inline-block;    
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;   
+    margin: 0 0.3em 0.3em 0;    
+    border-radius: 0.33em;    
+    box-sizing: border-box;  
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;    
+  }
+    .button1:hover{
+      color: white;
+      background-color: #008631;
+      text-decoration: none;
+    }
+    .display-1{
+      font-weight: 900;
+      color: yellow;
+    }
+    .subheading{
+      font-size: 1.5rem;
+    }
+    @media all and (max-width:30em){
+    .button1{
+      display: block;
+      margin: 0.4em auto;  
+    }
+  }

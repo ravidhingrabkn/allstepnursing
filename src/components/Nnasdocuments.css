@@ -1,0 +1,18 @@
+/* .nnasdocuments{ */
+    /* display: flex;
+    justify-content: center; */
+    /* padding: 1em 4em; */
+    /* padding: 50px 0 50px 6.5rem; */
+    /* margin-left: 6rem; */
+    /* position: relative; */
+    /* background-color: rgba(0, 134, 49, 10%); */
+/* } */
+/* .container{
+    padding: 32px;
+} */
+/* .nnasdocuments > h2{
+    align-items: center;
+} */
+#documents{
+    background: rgba(0, 134, 49, 10%);
+}

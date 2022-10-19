@@ -1,0 +1,123 @@
+.aboutpage {
+    background: rgba(0, 134, 49, 10%);
+    padding: 1em;
+    margin: 0;
+ }
+ .aboutpara1{
+    padding-top: 5em;   
+ }
+ /* .myabout{
+    margin-bottom: 3em;
+    height: 60vh;
+    border: 1px solid red;
+ } */
+ .nursingimage{ 
+    height: 500px;
+    max-width: 80%;
+ }
+ /* .nurseimage{
+    max-width: 80%;
+ } */
+ 
+ .aboutpara3{
+    text-indent: 20%;
+ }
+ .shikhaaboutpara{
+    padding: 1em 2em;
+ }
+ /* ######whatwedoCSS */
+ .wrapper{
+   margin: 0 auto;
+   padding: 1% 10%;
+   padding-bottom: 10px;
+   background-color: rgba(0, 134, 49, 10%);
+   box-sizing: border-box;
+   transition: .3s linear;
+   font-family: "Poppins", sans-serif ;
+   font-size: 10px;
+   /* text-transform: capitalize; */
+   
+   /* height: 40vh; */
+}
+h2{
+   /* color: #fff; */
+   font-size: 3rem;
+   text-align: center;
+   padding-bottom: 1em;
+   text-shadow: 0 15px 10px rgba(0, 0, 0, 0.2);
+}
+.conatiner{
+   display: grid;
+   gap: 1em;
+   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
+.boxe{
+   margin: 1em;
+   height: 275px;
+   padding: 1.4em;
+   text-align: center;
+   border-radius: 5px;
+   background: #fff;
+}
+.boxe img{
+   height: 5em;
+}
+.boxe h3{
+   color: #444;
+   padding: 0.5em 0;
+   font-size: 2.5rem;
+}
+.boxe p{
+   color: #777;
+   font-size: 1.5rem;
+   line-height: 1.6;
+   margin: 2em;
+}
+#cpnre{
+   font-size: 3rem;
+   font-weight: bold;
+}
+.btn{
+   color: #fff;
+   border: none;
+   outline: none;
+   font-size: 1rem;
+   margin: 0.5em;
+   padding: 8px 15px;
+   background: #008631;
+   border-bottom: 5px;
+   display: inline-block;
+   text-decoration: none;
+}
+.btn:hover{
+   letter-spacing: 1px;    
+}
+.boxe:hover{
+   transform: scale(1.03);
+   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 770px){
+   .wrapper{
+       padding: 20px;
+   }
+   .boxe{       
+       height: 325px;        
+   }
+   .boxe p{       
+       margin: 10px;
+   }
+}
+@media (max-width: 325px){
+   .wrapper{
+       padding: 20px;
+   }
+   .boxe{       
+       height: 250px;        
+   }
+   .boxe p{       
+       font-size: 0.8rem;
+       line-height: 1.6;
+       margin: 1em;
+   }
+  
+}

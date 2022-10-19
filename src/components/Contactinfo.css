@@ -1,0 +1,16 @@
+.address{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;   
+}
+.contactaddimage{
+    width: 80%;
+    height: 450px;
+}
+
+tr td:first-child{
+    padding-right: 2em;
+}
+tr td{
+    padding-top: 1.5em;
+}

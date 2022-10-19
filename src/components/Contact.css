@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Grape+Nuts&family=Lemonada:wght@500&family=Maven+Pro&family=Montserrat:wght@300&display=swap');
+/* .section{
+    display: flex;
+    justify-content: center;
+} */
+/* .contactsection{  
+   border: 1px solid green;
+    width: 50%;
+} */
+.contactimage{
+    height: 20vh;
+    width: 100vw;
+    position: center;
+}
+.contactsection{
+    background: rgba(0, 134, 49, 10%);
+}

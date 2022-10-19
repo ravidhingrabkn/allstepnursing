@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Grape+Nuts&family=Lemonada:wght@500&family=Maven+Pro&family=Montserrat:wght@300&family=Poppins&display=swap');
+
+.mynurse{
+    height: 300px;
+    max-width: 100%;
+}
+.mynursedetail{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Cormorant', serif;
+}
+figcaption{
+    font-size: 1.2rem;
+}

@@ -1,0 +1,39 @@
+.nnassection{
+    padding: 2em;
+}
+.nnascover{
+    height: 500px;
+    max-width: 100%;
+}
+.nnascoversection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutnnas{
+    padding: 2em 3em 2em 1em;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.nnas{
+    font-weight: 700;
+   font-size: 2.5rem;
+}
+
+/* .aboutnnas p{
+    padding-top: 2em;
+} */
+.nnasdef{
+    padding-top: 2em;
+}
+@media screen and (max-width : 800px ){
+    .aboutnnas{
+        padding: 1em 1em;
+        font-size: 1rem;
+    }
+    .nnascover{
+        height: 400px;
+        max-width: 100%;
+    }
+}
